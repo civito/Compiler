@@ -1,0 +1,424 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASSIGN	cminus.tab.c	/^    ASSIGN = 266,$/;"	e	enum:yytokentype	file:
+ASSIGN	cminus.tab.h	/^    ASSIGN = 266,$/;"	e	enum:yytokentype
+ArrIdK	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	e	enum:__anon4
+Array	globals.h	/^typedef enum {Void, Integer, Array} ExpType;$/;"	e	enum:__anon5
+BUFLEN	scan.c	22;"	d	file:
+BucketList	symtab.h	/^   } * BucketList;$/;"	t	typeref:struct:BucketListRec
+BucketListRec	symtab.h	/^typedef struct BucketListRec$/;"	s
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =$/;"	m
+COMMA	cminus.tab.c	/^    COMMA = 278,$/;"	e	enum:yytokentype	file:
+COMMA	cminus.tab.h	/^    COMMA = 278,$/;"	e	enum:yytokentype
+CallK	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	e	enum:__anon4
+CompK	globals.h	/^typedef enum {CompK, IfK, WhileK, RetK} StmtKind;$/;"	e	enum:__anon3
+ConstK	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	e	enum:__anon4
+DONE	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+DecK	globals.h	/^typedef enum {StmtK, ExpK, DecK} NodeKind;$/;"	e	enum:__anon1
+DecKind	globals.h	/^typedef enum {VarK, FunK, ParamK} DecKind;$/;"	t	typeref:enum:__anon2
+ELSE	cminus.tab.c	/^    ELSE = 259,$/;"	e	enum:yytokentype	file:
+ELSE	cminus.tab.h	/^    ELSE = 259,$/;"	e	enum:yytokentype
+ENDFILE	globals.h	35;"	d
+EOF_flag	scan.c	/^static int EOF_flag = FALSE; \/* corrects ungetNextChar behavior on EOF *\/$/;"	v	file:
+EQ	cminus.tab.c	/^    EQ = 267,$/;"	e	enum:yytokentype	file:
+EQ	cminus.tab.h	/^    EQ = 267,$/;"	e	enum:yytokentype
+ERROR	cminus.tab.c	/^    ERROR = 285$/;"	e	enum:yytokentype	file:
+ERROR	cminus.tab.h	/^    ERROR = 285$/;"	e	enum:yytokentype
+EXIT_SUCCESS	cminus.tab.c	301;"	d	file:
+EXIT_SUCCESS	cminus.tab.c	329;"	d	file:
+EchoSource	main.c	/^int EchoSource = FALSE;$/;"	v
+Error	main.c	/^int Error = FALSE;$/;"	v
+ExpK	globals.h	/^typedef enum {StmtK, ExpK, DecK} NodeKind;$/;"	e	enum:__anon1
+ExpKind	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	t	typeref:enum:__anon4
+ExpType	globals.h	/^typedef enum {Void, Integer, Array} ExpType;$/;"	t	typeref:enum:__anon5
+FALSE	globals.h	40;"	d
+FunK	globals.h	/^typedef enum {VarK, FunK, ParamK} DecKind;$/;"	e	enum:__anon2
+GE	cminus.tab.c	/^    GE = 272,$/;"	e	enum:yytokentype	file:
+GE	cminus.tab.h	/^    GE = 272,$/;"	e	enum:yytokentype
+GT	cminus.tab.c	/^    GT = 271,$/;"	e	enum:yytokentype	file:
+GT	cminus.tab.h	/^    GT = 271,$/;"	e	enum:yytokentype
+ID	cminus.tab.c	/^    ID = 264,$/;"	e	enum:yytokentype	file:
+ID	cminus.tab.h	/^    ID = 264,$/;"	e	enum:yytokentype
+IF	cminus.tab.c	/^    IF = 258,$/;"	e	enum:yytokentype	file:
+IF	cminus.tab.h	/^    IF = 258,$/;"	e	enum:yytokentype
+INCOMMENT	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INCOMMENT_	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INDENT	util.c	137;"	d	file:
+INEQ	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INGT	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INID	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INLT	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INNE	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INNUM	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INOVER	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+INT	cminus.tab.c	/^    INT = 263,$/;"	e	enum:yytokentype	file:
+INT	cminus.tab.h	/^    INT = 263,$/;"	e	enum:yytokentype
+IdK	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	e	enum:__anon4
+IfK	globals.h	/^typedef enum {CompK, IfK, WhileK, RetK} StmtKind;$/;"	e	enum:__anon3
+Integer	globals.h	/^typedef enum {Void, Integer, Array} ExpType;$/;"	e	enum:__anon5
+LBRACE	cminus.tab.c	/^    LBRACE = 281,$/;"	e	enum:yytokentype	file:
+LBRACE	cminus.tab.h	/^    LBRACE = 281,$/;"	e	enum:yytokentype
+LCURLY	cminus.tab.c	/^    LCURLY = 283,$/;"	e	enum:yytokentype	file:
+LCURLY	cminus.tab.h	/^    LCURLY = 283,$/;"	e	enum:yytokentype
+LE	cminus.tab.c	/^    LE = 270,$/;"	e	enum:yytokentype	file:
+LE	cminus.tab.h	/^    LE = 270,$/;"	e	enum:yytokentype
+LPAREN	cminus.tab.c	/^    LPAREN = 279,$/;"	e	enum:yytokentype	file:
+LPAREN	cminus.tab.h	/^    LPAREN = 279,$/;"	e	enum:yytokentype
+LT	cminus.tab.c	/^    LT = 269,$/;"	e	enum:yytokentype	file:
+LT	cminus.tab.h	/^    LT = 269,$/;"	e	enum:yytokentype
+LineList	symtab.h	/^   } * LineList;$/;"	t	typeref:struct:LineListRec
+LineListRec	symtab.h	/^typedef struct LineListRec$/;"	s
+MAXCHILDREN	globals.h	74;"	d
+MAXRESERVED	globals.h	48;"	d
+MAXTOKENLEN	scan.h	12;"	d
+MINUS	cminus.tab.c	/^    MINUS = 274,$/;"	e	enum:yytokentype	file:
+MINUS	cminus.tab.h	/^    MINUS = 274,$/;"	e	enum:yytokentype
+NE	cminus.tab.c	/^    NE = 268,$/;"	e	enum:yytokentype	file:
+NE	cminus.tab.h	/^    NE = 268,$/;"	e	enum:yytokentype
+NO_ANALYZE	main.c	13;"	d	file:
+NO_CODE	main.c	18;"	d	file:
+NO_PARSE	main.c	11;"	d	file:
+NUM	cminus.tab.c	/^    NUM = 265,$/;"	e	enum:yytokentype	file:
+NUM	cminus.tab.h	/^    NUM = 265,$/;"	e	enum:yytokentype
+NodeKind	globals.h	/^typedef enum {StmtK, ExpK, DecK} NodeKind;$/;"	t	typeref:enum:__anon1
+OBJS	Makefile	/^OBJS = y.tab.o lex.yy.o main.o util.o symtab.o analyze.o$/;"	m
+OVER	cminus.tab.c	/^    OVER = 276,$/;"	e	enum:yytokentype	file:
+OVER	cminus.tab.h	/^    OVER = 276,$/;"	e	enum:yytokentype
+OpK	globals.h	/^typedef enum {OpK, ConstK, IdK, ArrIdK, CallK} ExpKind;$/;"	e	enum:__anon4
+PLUS	cminus.tab.c	/^    PLUS = 273,$/;"	e	enum:yytokentype	file:
+PLUS	cminus.tab.h	/^    PLUS = 273,$/;"	e	enum:yytokentype
+ParamK	globals.h	/^typedef enum {VarK, FunK, ParamK} DecKind;$/;"	e	enum:__anon2
+RBRACE	cminus.tab.c	/^    RBRACE = 282,$/;"	e	enum:yytokentype	file:
+RBRACE	cminus.tab.h	/^    RBRACE = 282,$/;"	e	enum:yytokentype
+RCURLY	cminus.tab.c	/^    RCURLY = 284,$/;"	e	enum:yytokentype	file:
+RCURLY	cminus.tab.h	/^    RCURLY = 284,$/;"	e	enum:yytokentype
+RETURN	cminus.tab.c	/^    RETURN = 260,$/;"	e	enum:yytokentype	file:
+RETURN	cminus.tab.h	/^    RETURN = 260,$/;"	e	enum:yytokentype
+RPAREN	cminus.tab.c	/^    RPAREN = 280,$/;"	e	enum:yytokentype	file:
+RPAREN	cminus.tab.h	/^    RPAREN = 280,$/;"	e	enum:yytokentype
+RetK	globals.h	/^typedef enum {CompK, IfK, WhileK, RetK} StmtKind;$/;"	e	enum:__anon3
+SEMI	cminus.tab.c	/^    SEMI = 277,$/;"	e	enum:yytokentype	file:
+SEMI	cminus.tab.h	/^    SEMI = 277,$/;"	e	enum:yytokentype
+SHIFT	symtab.c	18;"	d	file:
+SIZE	symtab.h	15;"	d
+START	scan.c	/^   { START,INEQ,INCOMMENT,INNUM,INID,DONE,INLT,INGT,INNE,INOVER,INCOMMENT_ }$/;"	e	enum:__anon8	file:
+ScopeList	symtab.h	/^} * ScopeList;$/;"	t	typeref:struct:ScopeListRec
+ScopeListRec	symtab.h	/^typedef struct ScopeListRec{$/;"	s
+StateType	scan.c	/^   StateType;$/;"	t	typeref:enum:__anon8	file:
+StmtK	globals.h	/^typedef enum {StmtK, ExpK, DecK} NodeKind;$/;"	e	enum:__anon1
+StmtKind	globals.h	/^typedef enum {CompK, IfK, WhileK, RetK} StmtKind;$/;"	t	typeref:enum:__anon3
+TIMES	cminus.tab.c	/^    TIMES = 275,$/;"	e	enum:yytokentype	file:
+TIMES	cminus.tab.h	/^    TIMES = 275,$/;"	e	enum:yytokentype
+TRUE	globals.h	44;"	d
+TokenType	globals.h	/^typedef int TokenType; $/;"	t
+TraceAnalyze	main.c	/^int TraceAnalyze = TRUE;$/;"	v
+TraceCode	main.c	/^int TraceCode = FALSE;$/;"	v
+TraceParse	main.c	/^int TraceParse = FALSE;$/;"	v
+TraceScan	main.c	/^int TraceScan = FALSE;$/;"	v
+TreeNode	globals.h	/^   } TreeNode;$/;"	t	typeref:struct:treeNode
+UNINDENT	util.c	138;"	d	file:
+VOID	cminus.tab.c	/^    VOID = 262,$/;"	e	enum:yytokentype	file:
+VOID	cminus.tab.h	/^    VOID = 262,$/;"	e	enum:yytokentype
+VarK	globals.h	/^typedef enum {VarK, FunK, ParamK} DecKind;$/;"	e	enum:__anon2
+Void	globals.h	/^typedef enum {Void, Integer, Array} ExpType;$/;"	e	enum:__anon5
+WHILE	cminus.tab.c	/^    WHILE = 261,$/;"	e	enum:yytokentype	file:
+WHILE	cminus.tab.h	/^    WHILE = 261,$/;"	e	enum:yytokentype
+WhileK	globals.h	/^typedef enum {CompK, IfK, WhileK, RetK} StmtKind;$/;"	e	enum:__anon3
+YYABORT	cminus.tab.c	652;"	d	file:
+YYACCEPT	cminus.tab.c	651;"	d	file:
+YYBACKUP	cminus.tab.c	658;"	d	file:
+YYBISON	cminus.tab.c	44;"	d	file:
+YYBISON_VERSION	cminus.tab.c	47;"	d	file:
+YYCASE_	cminus.tab.c	1009;"	d	file:
+YYCASE_	cminus.tab.c	999;"	d	file:
+YYCOPY	cminus.tab.c	393;"	d	file:
+YYCOPY	cminus.tab.c	396;"	d	file:
+YYCOPY_NEEDED	cminus.tab.c	368;"	d	file:
+YYDEBUG	cminus.tab.c	111;"	d	file:
+YYDEBUG	cminus.tab.h	37;"	d
+YYDPRINTF	cminus.tab.c	689;"	d	file:
+YYDPRINTF	cminus.tab.c	804;"	d	file:
+YYEMPTY	cminus.tab.c	648;"	d	file:
+YYEOF	cminus.tab.c	649;"	d	file:
+YYERRCODE	cminus.tab.c	677;"	d	file:
+YYERROR	cminus.tab.c	653;"	d	file:
+YYERROR_VERBOSE	cminus.tab.c	100;"	d	file:
+YYERROR_VERBOSE	cminus.tab.c	102;"	d	file:
+YYERROR_VERBOSE	cminus.tab.c	99;"	d	file:
+YYFINAL	cminus.tab.c	409;"	d	file:
+YYFPRINTF	cminus.tab.c	686;"	d	file:
+YYFREE	cminus.tab.c	339;"	d	file:
+YYINITDEPTH	cminus.tab.c	813;"	d	file:
+YYLAST	cminus.tab.c	411;"	d	file:
+YYMALLOC	cminus.tab.c	333;"	d	file:
+YYMAXDEPTH	cminus.tab.c	824;"	d	file:
+YYMAXUTOK	cminus.tab.c	425;"	d	file:
+YYNNTS	cminus.tab.c	416;"	d	file:
+YYNRULES	cminus.tab.c	418;"	d	file:
+YYNSTATES	cminus.tab.c	420;"	d	file:
+YYNTOKENS	cminus.tab.c	414;"	d	file:
+YYPACT_NINF	cminus.tab.c	508;"	d	file:
+YYPARSER	cminus.tab.c	67;"	d	file:
+YYPOPSTACK	cminus.tab.c	1124;"	d	file:
+YYPULL	cminus.tab.c	59;"	d	file:
+YYPURE	cminus.tab.c	53;"	d	file:
+YYPUSH	cminus.tab.c	56;"	d	file:
+YYRECOVERING	cminus.tab.c	656;"	d	file:
+YYSIZE_MAXIMUM	cminus.tab.c	212;"	d	file:
+YYSIZE_T	cminus.tab.c	201;"	d	file:
+YYSIZE_T	cminus.tab.c	203;"	d	file:
+YYSIZE_T	cminus.tab.c	206;"	d	file:
+YYSIZE_T	cminus.tab.c	208;"	d	file:
+YYSKELETON_NAME	cminus.tab.c	50;"	d	file:
+YYSTACK_ALLOC	cminus.tab.c	287;"	d	file:
+YYSTACK_ALLOC	cminus.tab.c	291;"	d	file:
+YYSTACK_ALLOC	cminus.tab.c	296;"	d	file:
+YYSTACK_ALLOC	cminus.tab.c	319;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	cminus.tab.c	316;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	cminus.tab.c	322;"	d	file:
+YYSTACK_BYTES	cminus.tab.c	364;"	d	file:
+YYSTACK_FREE	cminus.tab.c	310;"	d	file:
+YYSTACK_FREE	cminus.tab.c	320;"	d	file:
+YYSTACK_GAP_MAXIMUM	cminus.tab.c	360;"	d	file:
+YYSTACK_RELOCATE	cminus.tab.c	375;"	d	file:
+YYSTYPE	cminus.tab.c	/^typedef int YYSTYPE;$/;"	t	file:
+YYSTYPE	cminus.tab.c	73;"	d	file:
+YYSTYPE	cminus.tab.h	/^typedef int YYSTYPE;$/;"	t
+YYSTYPE_IS_DECLARED	cminus.tab.c	157;"	d	file:
+YYSTYPE_IS_DECLARED	cminus.tab.h	83;"	d
+YYSTYPE_IS_TRIVIAL	cminus.tab.c	156;"	d	file:
+YYSTYPE_IS_TRIVIAL	cminus.tab.h	82;"	d
+YYTABLE_NINF	cminus.tab.c	513;"	d	file:
+YYTERROR	cminus.tab.c	676;"	d	file:
+YYTOKENTYPE	cminus.tab.c	119;"	d	file:
+YYTOKENTYPE	cminus.tab.h	45;"	d
+YYTRANSLATE	cminus.tab.c	427;"	d	file:
+YYUNDEFTOK	cminus.tab.c	424;"	d	file:
+YYUSE	cminus.tab.c	255;"	d	file:
+YYUSE	cminus.tab.c	257;"	d	file:
+YY_	cminus.tab.c	218;"	d	file:
+YY_	cminus.tab.c	222;"	d	file:
+YY_ATTRIBUTE	cminus.tab.c	230;"	d	file:
+YY_ATTRIBUTE	cminus.tab.c	232;"	d	file:
+YY_ATTRIBUTE_PURE	cminus.tab.c	237;"	d	file:
+YY_ATTRIBUTE_UNUSED	cminus.tab.c	241;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	cminus.tab.c	262;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	cminus.tab.c	272;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	cminus.tab.c	266;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	cminus.tab.c	273;"	d	file:
+YY_INITIAL_VALUE	cminus.tab.c	269;"	d	file:
+YY_INITIAL_VALUE	cminus.tab.c	276;"	d	file:
+YY_LOCATION_PRINT	cminus.tab.c	697;"	d	file:
+YY_NULLPTR	cminus.tab.c	91;"	d	file:
+YY_NULLPTR	cminus.tab.c	93;"	d	file:
+YY_REDUCE_PRINT	cminus.tab.c	794;"	d	file:
+YY_REDUCE_PRINT	cminus.tab.c	807;"	d	file:
+YY_STACK_PRINT	cminus.tab.c	763;"	d	file:
+YY_STACK_PRINT	cminus.tab.c	806;"	d	file:
+YY_SYMBOL_PRINT	cminus.tab.c	701;"	d	file:
+YY_SYMBOL_PRINT	cminus.tab.c	805;"	d	file:
+YY_YY_CMINUS_TAB_H_INCLUDED	cminus.tab.c	108;"	d	file:
+YY_YY_CMINUS_TAB_H_INCLUDED	cminus.tab.h	34;"	d
+_ANALYZE_H_	analyze.h	9;"	d
+_GLOBALS_H_	globals.h	11;"	d
+_Noreturn	cminus.tab.c	247;"	d	file:
+_Noreturn	cminus.tab.c	249;"	d	file:
+_PARSE_H_	parse.h	9;"	d
+_SCAN_H_	scan.h	9;"	d
+_SYMTAB_H_	symtab.h	10;"	d
+_UTIL_H_	util.h	9;"	d
+a	analyze.c	/^static char a[] = "Global";$/;"	v	file:
+a	cminus.tab.c	/^static TreeNode *a = NULL; \/* argument list *\/$/;"	v	file:
+addLocation	symtab.c	/^int addLocation(){$/;"	f
+add_exp	cminus.y	/^add_exp     : add_exp addop term$/;"	l
+addop	cminus.y	/^addop       : PLUS {$/;"	l
+alloca	cminus.tab.c	294;"	d	file:
+arg_list	cminus.y	/^arg_list    : arg_list COMMA exp$/;"	l
+args	cminus.y	/^args        : arg_list {$$ = $1;}$/;"	l
+assign_stmt	parse.c	/^TreeNode * assign_stmt(void)$/;"	f
+attr	globals.h	/^    } attr;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon7
+bucket	symtab.h	/^  BucketList bucket[SIZE];$/;"	m	struct:ScopeListRec
+bufsize	scan.c	/^static int bufsize = 0; \/* current size of buffer string *\/$/;"	v	file:
+buildSymtab	analyze.c	/^void buildSymtab(TreeNode * syntaxTree)$/;"	f
+call	cminus.y	/^call        : id $/;"	l
+checkNode	analyze.c	/^static void checkNode(TreeNode * t)$/;"	f	file:
+child	globals.h	/^   { struct treeNode * child[MAXCHILDREN];$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+code	main.c	/^FILE * code;$/;"	v
+comp_stmt	cminus.y	/^comp_stmt   : LCURLY local_dec stmt_list RCURLY$/;"	l
+copyString	util.c	/^char * copyString(char * s)$/;"	f
+d	cminus.tab.c	/^static TreeNode *d = NULL; \/* dec list *\/$/;"	v	file:
+dec	cminus.y	/^dec         : var_dec { $$ = $1; }$/;"	l
+dec	globals.h	/^        DecKind dec;$/;"	m	union:treeNode::__anon6
+dec_list	cminus.y	/^dec_list    : dec_list dec$/;"	l
+exp	cminus.y	/^exp         : var ASSIGN exp$/;"	l
+exp	globals.h	/^        ExpKind exp;$/;"	m	union:treeNode::__anon6
+exp	parse.c	/^TreeNode * exp(void)$/;"	f
+exp_stmt	cminus.y	/^exp_stmt    : exp SEMI {$$ = $1;}$/;"	l
+factor	cminus.y	/^factor      : LPAREN exp RPAREN$/;"	l
+factor	parse.c	/^TreeNode * factor(void)$/;"	f
+forPop	analyze.c	/^static void forPop( TreeNode * t){$/;"	f	file:
+forPush	analyze.c	/^static void forPush (TreeNode *t){$/;"	f	file:
+fun_dec	cminus.y	/^fun_dec     : type_spec id $/;"	l
+funcName	analyze.c	/^static char * funcName = a;$/;"	v	file:
+getNextChar	scan.c	/^static int getNextChar(void)$/;"	f	file:
+getToken	scan.c	/^TokenType getToken(void)$/;"	f
+global	analyze.c	/^ScopeList global;$/;"	v
+hash	symtab.c	/^static int hash ( char * key )$/;"	f	file:
+id	cminus.y	/^id          : ID$/;"	l
+if_stmt	parse.c	/^TreeNode * if_stmt(void)$/;"	f
+indentno	util.c	/^static indentno = 0;$/;"	v	file:
+inoutput	analyze.c	/^static void inoutput(){$/;"	f	file:
+insertNode	analyze.c	/^static void insertNode( TreeNode * t)$/;"	f	file:
+iter_stmt	cminus.y	/^iter_stmt   : WHILE LPAREN exp RPAREN stmt$/;"	l
+just_add_line	symtab.c	/^void just_add_line(char * name, int lineno){$/;"	f
+kind	globals.h	/^    } kind;$/;"	m	struct:treeNode	typeref:union:treeNode::__anon6
+l	cminus.tab.c	/^static TreeNode *l = NULL; \/* local dec list *\/$/;"	v	file:
+lineBuf	scan.c	/^static char lineBuf[BUFLEN]; \/* holds the current line *\/$/;"	v	file:
+lineno	globals.h	/^     int lineno;$/;"	m	struct:treeNode
+lineno	main.c	/^int lineno = 0;$/;"	v
+lineno	symtab.h	/^   { int lineno;$/;"	m	struct:LineListRec
+linepos	scan.c	/^static int linepos = 0; \/* current position in LineBuf *\/$/;"	v	file:
+lines	symtab.h	/^     LineList lines;$/;"	m	struct:BucketListRec
+listing	main.c	/^FILE * listing;$/;"	v
+local_dec	cminus.y	/^local_dec   : local_dec var_dec$/;"	l
+location	analyze.c	/^static int location = 0;$/;"	v	file:
+location	symtab.c	/^static int location[1000];$/;"	v	file:
+main	main.c	/^main( int argc, char * argv[] )$/;"	f
+match	parse.c	/^static void match(TokenType expected)$/;"	f	file:
+memloc	symtab.h	/^     int memloc ; \/* memory location for variable *\/$/;"	m	struct:BucketListRec
+mulop	cminus.y	/^mulop       : TIMES {$/;"	l
+nScopeStack	symtab.c	/^static int nScopeStack = 0;$/;"	v	file:
+name	globals.h	/^        char* name;$/;"	m	union:treeNode::__anon7
+name	symtab.h	/^   { char * name;$/;"	m	struct:BucketListRec
+name	symtab.h	/^  char * name;$/;"	m	struct:ScopeListRec
+newDecNode	util.c	/^TreeNode * newDecNode(DecKind kind)$/;"	f
+newExpNode	util.c	/^TreeNode * newExpNode(ExpKind kind)$/;"	f
+newStmtNode	util.c	/^TreeNode * newStmtNode(StmtKind kind)$/;"	f
+next	symtab.h	/^     struct BucketListRec * next;$/;"	m	struct:BucketListRec	typeref:struct:BucketListRec::BucketListRec
+next	symtab.h	/^     struct LineListRec * next;$/;"	m	struct:LineListRec	typeref:struct:LineListRec::LineListRec
+nodekind	globals.h	/^     NodeKind nodekind;$/;"	m	struct:treeNode
+ntotalScope	symtab.c	/^static int ntotalScope = 0;$/;"	v	file:
+nullProc	analyze.c	/^static void nullProc(TreeNode * t)$/;"	f	file:
+op	globals.h	/^        TokenType op;$/;"	m	union:treeNode::__anon7
+p	cminus.tab.c	/^static TreeNode *p = NULL; \/* params list *\/$/;"	v	file:
+param	cminus.y	/^param       : type_spec id$/;"	l
+params	cminus.y	/^params      : params_list {$$ = $1;}$/;"	l
+params_list	cminus.y	/^params_list : params_list COMMA param$/;"	l
+parent	symtab.h	/^  struct ScopeListRec * parent;$/;"	m	struct:ScopeListRec	typeref:struct:ScopeListRec::ScopeListRec
+parse	cminus.tab.c	/^TreeNode * parse(void)$/;"	f
+parse	parse.c	/^TreeNode * parse(void)$/;"	f
+printSpaces	util.c	/^static void printSpaces(void)$/;"	f	file:
+printSymTab	symtab.c	/^void printSymTab(FILE * listing){$/;"	f
+printToken	util.c	/^void printToken( TokenType token, const char* tokenString )$/;"	f
+printTree	util.c	/^void printTree( TreeNode * tree )$/;"	f
+program	cminus.y	/^program     : dec_list$/;"	l
+read_stmt	parse.c	/^TreeNode * read_stmt(void)$/;"	f
+relop	cminus.y	/^relop       : LE {$/;"	l
+repeat_stmt	parse.c	/^TreeNode * repeat_stmt(void)$/;"	f
+reservedLookup	scan.c	/^static TokenType reservedLookup (char * s)$/;"	f	file:
+reservedWords	scan.c	/^    } reservedWords[MAXRESERVED]$/;"	v	typeref:struct:__anon9	file:
+return_stmt	cminus.y	/^return_stmt : RETURN SEMI$/;"	l
+s	cminus.tab.c	/^static TreeNode *s = NULL; \/* stmt list *\/$/;"	v	file:
+savedLineNo	cminus.tab.c	/^static int savedLineNo;  \/* ditto *\/$/;"	v	file:
+savedName	cminus.tab.c	/^static char * savedName; \/* for use in assignments *\/$/;"	v	file:
+savedNum	cminus.tab.c	/^static int savedNum;$/;"	v	file:
+savedTree	cminus.tab.c	/^static TreeNode * savedTree; \/* stores syntax tree for later return *\/$/;"	v	file:
+scope	globals.h	/^    struct ScopeListRec *scope;$/;"	m	struct:treeNode	typeref:struct:treeNode::ScopeListRec
+scopeStack	symtab.c	/^static ScopeList scopeStack[1000];$/;"	v	file:
+scope_create	symtab.c	/^ScopeList scope_create(char *name){$/;"	f
+scope_pop	symtab.c	/^void scope_pop(){$/;"	f
+scope_push	symtab.c	/^void scope_push(ScopeList scope){$/;"	f
+scope_top	symtab.c	/^ScopeList scope_top(){$/;"	f
+select_stmt	cminus.y	/^select_stmt : IF LPAREN exp RPAREN stmt$/;"	l
+short	cminus.tab.c	172;"	d	file:
+sibling	globals.h	/^     struct treeNode * sibling;$/;"	m	struct:treeNode	typeref:struct:treeNode::treeNode
+simple_exp	cminus.y	/^simple_exp  : add_exp relop add_exp$/;"	l
+simple_exp	parse.c	/^TreeNode * simple_exp(void)$/;"	f
+size	globals.h	/^    int size;$/;"	m	struct:treeNode
+source	main.c	/^FILE * source;$/;"	v
+st_insert	symtab.c	/^void st_insert(char *scope, char * name, ExpType type, int lineno, int loc, TreeNode *t)$/;"	f
+st_lookup	symtab.c	/^BucketList st_lookup (char * name){$/;"	f
+st_lookup_excluding_parent	symtab.c	/^BucketList st_lookup_excluding_parent ( char * scope, char * name){$/;"	f
+statement	parse.c	/^TreeNode * statement(void)$/;"	f
+stay	analyze.c	/^static int stay = 0;$/;"	v	file:
+stmt	cminus.y	/^stmt        : exp_stmt { $$ = $1; }$/;"	l
+stmt	globals.h	/^        StmtKind stmt;$/;"	m	union:treeNode::__anon6
+stmt_list	cminus.y	/^stmt_list   : stmt_list stmt$/;"	l
+stmt_sequence	parse.c	/^TreeNode * stmt_sequence(void)$/;"	f
+str	scan.c	/^    { char* str;$/;"	m	struct:__anon9	file:
+symbolError	analyze.c	/^static void symbolError(TreeNode *t, char *message){$/;"	f	file:
+syntaxError	parse.c	/^static void syntaxError(char * message)$/;"	f	file:
+term	cminus.y	/^term        : term mulop factor$/;"	l
+term	parse.c	/^TreeNode * term(void)$/;"	f
+tok	scan.c	/^      TokenType tok;$/;"	m	struct:__anon9	file:
+token	parse.c	/^static TokenType token; \/* holds current token *\/$/;"	v	file:
+tokenString	scan.c	/^char tokenString[MAXTOKENLEN+1];$/;"	v
+totalScope	symtab.c	/^static ScopeList totalScope[1000];$/;"	v	file:
+traverse	analyze.c	/^static void traverse( TreeNode * t,$/;"	f	file:
+treeNode	globals.h	/^typedef struct treeNode$/;"	s
+treenode	symtab.h	/^     TreeNode *treenode;$/;"	m	struct:BucketListRec
+type	globals.h	/^    ExpType type; \/* for type checking of exps *\/$/;"	m	struct:treeNode
+type	symtab.h	/^     ExpType type;$/;"	m	struct:BucketListRec
+typeCheck	analyze.c	/^void typeCheck(TreeNode * syntaxTree)$/;"	f
+typeError	analyze.c	/^static void typeError(TreeNode * t, char * message)$/;"	f	file:
+typeString	symtab.c	/^char *typeString[] = {"Void", "Integer", "integer"};$/;"	v
+typeStrings	util.c	/^char *typeStrings[] = {"void", "int", "int[]"};$/;"	v
+type_spec	cminus.y	/^type_spec   : INT$/;"	l
+ungetNextChar	scan.c	/^static void ungetNextChar(void)$/;"	f	file:
+val	globals.h	/^        int val;$/;"	m	union:treeNode::__anon7
+var	cminus.y	/^var         : id$/;"	l
+var_dec	cminus.y	/^var_dec     : type_spec id SEMI$/;"	l
+write_stmt	parse.c	/^TreeNode * write_stmt(void)$/;"	f
+yy_reduce_print	cminus.tab.c	/^yy_reduce_print (yytype_int16 *yyssp, YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_stack_print	cminus.tab.c	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_symbol_print	cminus.tab.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	cminus.tab.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yyalloc	cminus.tab.c	/^union yyalloc$/;"	u	file:
+yychar	cminus.tab.c	/^int yychar;$/;"	v
+yycheck	cminus.tab.c	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	cminus.tab.c	647;"	d	file:
+yydebug	cminus.tab.c	/^int yydebug;$/;"	v
+yydefact	cminus.tab.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	cminus.tab.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	cminus.tab.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyerrok	cminus.tab.c	646;"	d	file:
+yyerror	cminus.tab.c	/^int yyerror(char * message)$/;"	f
+yylex	cminus.tab.c	/^static int yylex(void)$/;"	f	file:
+yylval	cminus.tab.c	/^YYSTYPE yylval;$/;"	v
+yynerrs	cminus.tab.c	/^int yynerrs;$/;"	v
+yypact	cminus.tab.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	cminus.tab.c	510;"	d	file:
+yyparse	cminus.tab.c	/^yyparse (void)$/;"	f
+yypgoto	cminus.tab.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yyr1	cminus.tab.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	cminus.tab.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrline	cminus.tab.c	/^static const yytype_uint16 yyrline[] =$/;"	v	file:
+yyss_alloc	cminus.tab.c	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	cminus.tab.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	cminus.tab.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	cminus.tab.c	848;"	d	file:
+yystrlen	cminus.tab.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	cminus.tab.c	832;"	d	file:
+yysyntax_error	cminus.tab.c	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	cminus.tab.c	/^static const yytype_int8 yytable[] =$/;"	v	file:
+yytable_value_is_error	cminus.tab.c	515;"	d	file:
+yytname	cminus.tab.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	cminus.tab.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	cminus.tab.c	/^  enum yytokentype$/;"	g	file:
+yytokentype	cminus.tab.h	/^  enum yytokentype$/;"	g
+yytoknum	cminus.tab.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	cminus.tab.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	cminus.tab.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	cminus.tab.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	cminus.tab.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	cminus.tab.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	cminus.tab.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	cminus.tab.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	cminus.tab.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	cminus.tab.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyvs_alloc	cminus.tab.c	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
